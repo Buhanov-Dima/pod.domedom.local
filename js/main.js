@@ -157,9 +157,6 @@ function switchVideo(n) {
         $(this).addClass('muted')
       }
     });
-
-    $.fancybox('.popup-form');
-    });
     $('.slide__link').on('click', function(e){
         e.preventDefault();
         console.log('Slide show prew On click! \n');

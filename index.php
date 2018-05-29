@@ -1,4 +1,4 @@
-<?include 'header.php' ?>
+<?php include ("header.php"); ?>
 	<main>
 		<div class="container-fluid pdg-0">
 			<div class="row no-gutters">
@@ -161,21 +161,4 @@
 		</div>
 	</main>
 
-<?include 'footer.php' ?>
-
-	<!-- Jquery 2.1.4 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<!-- popper.js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<!-- bootstrap 4.0 -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<!-- Fancybox 3.2.5-->
-<script src="js/fancybox/jquery.fancybox.min.js"></script>
-	<!-- owl-carousel 2 -->
-<script src="js/owl-carousel/owl.carousel.min.js"></script>
-	<!-- Main -->
-<script src="js/main.js"></script>
-
-</body>
-
-</html>
+<?php include ("footer.php"); ?>
