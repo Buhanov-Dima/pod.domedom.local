@@ -1,4 +1,4 @@
-<?include 'header.php' ?>
+<?php include ("header.php"); ?>
 
 	<div class="container mg-t-6">
 		<div class="row">
@@ -64,4 +64,4 @@
 	
 
 
-<?include 'footer.php' ?>
+<?php include ("footer.php"); ?>
